@@ -493,9 +493,7 @@ function App() {
             </button>
           </form>
 
-          <div className="mt-6 p-4 bg-slate-700/30 rounded-lg text-sm text-slate-400">
 
-          </div>
         </div>
       </div>
     );
