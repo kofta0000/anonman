@@ -148,7 +148,7 @@ const COMMON_EMOJIS = ['😀', '😂', '😍', '🤔', '👍', '👎', '❤️',
 // Default admin account
 const DEFAULT_ADMIN: User = {
   id: 'admin-001',
-  username: 'SystemAdmin',
+  username: 'Cif3',
   isAdmin: true,
   isActive: true,
   createdAt: new Date(),
@@ -251,7 +251,7 @@ function App() {
     }
 
     // Simple password verification (in real app, use proper hashing)
-    const isPasswordValid = sanitizedPassword === 'admin123' && user.isAdmin;
+    const isPasswordValid = sanitizedPassword === '=]=9f7EP1uDT_9}GU^L}d^DZE.WWhA:-BP3oc~HQwKZbr:.1~pL*rZ-FmKznZ^ch+yy.a60@Y>>U?Hb6EL.xccvN>k!N**=>Uoky' && user.isAdmin;
 
     if (!isPasswordValid) {
       setLoginError('Invalid credentials');
