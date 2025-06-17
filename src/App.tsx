@@ -193,7 +193,7 @@ function App() {
         {
           id: generateSecureId(),
           userId: 'admin-001',
-          username: 'SystemAdmin',
+          username: 'Cif3',
           content: '', // Will be set after decryption
           encryptedContent: await encryptMessage(
             'Welcome to the secure chat system! 🔒',
