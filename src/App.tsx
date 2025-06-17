@@ -494,9 +494,7 @@ function App() {
           </form>
 
           <div className="mt-6 p-4 bg-slate-700/30 rounded-lg text-sm text-slate-400">
-            <div className="font-medium text-slate-300 mb-2">Demo Access:</div>
-            <div>Username: <code className="text-blue-400">SystemAdmin</code></div>
-            <div>Password: <code className="text-blue-400">admin123</code></div>
+
           </div>
         </div>
       </div>
